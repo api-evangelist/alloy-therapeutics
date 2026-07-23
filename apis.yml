@@ -1,7 +1,28 @@
 aid: alloy-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alloy-therapeutics.png
 name: Alloy Therapeutics
-description: Alloy Therapeutics is a company surfaced as a portfolio company of 8vc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Alloy Therapeutics is a biotechnology ecosystem company operating as a Product
+  Development Organization that partners across discovery, preclinical, and clinical
+  development. It combines proprietary AI/ML, real-world data, and tech-enabled
+  scientific services across multiple therapeutic modalities, including monoclonal
+  and bispecific antibodies, TCR mimics, genetic medicines (cyclic RNA and
+  oligonucleotide design), and cell-therapy pharmacology. Alloy is known for its
+  transgenic antibody-discovery platforms (the ATX-Gx mouse series) and licenses
+  reagents, platforms, and services to pharmaceutical and biotech partners rather
+  than exposing a public developer API. Surfaced as a portfolio company of 8vc and
+  added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/alloy-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,34 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Antibody Discovery
+- Genetic Medicines
+- Artificial Intelligence
+- Life Sciences
+- Pharmaceutical
 apis: []
+common:
+- type: DomainSecurity
+  url: security/alloy-therapeutics-domain-security.yml
+- type: Website
+  url: https://alloytx.com/
+- type: Blog
+  url: https://alloytx.com/about/news-and-events/
+- type: Support
+  url: https://alloytx.com/contact/
+- type: PrivacyPolicy
+  url: https://alloytx.com/privacy-policy/
+- type: TermsOfService
+  url: https://alloytx.com/terms-and-conditions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
